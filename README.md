@@ -20,7 +20,7 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
 
 ![image](https://github.com/NitheshT/Automating_Auto_Scaling_Rolling_Update/assets/122042254/6047334c-400f-4d4d-93cf-eb7d699d197e)
 
-# Ansible
+# Ansible Playbook
 
 ```
 ---
