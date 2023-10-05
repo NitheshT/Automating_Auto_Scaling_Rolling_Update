@@ -16,7 +16,7 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
 - Installing pip, boto, boto3 and botocore modules.
 - Creating an IAM user role under your AWS account.
 
-# Architacture
+# Architecture
 
 ![image](https://github.com/NitheshT/Automating_Auto_Scaling_Rolling_Update/assets/122042254/6047334c-400f-4d4d-93cf-eb7d699d197e)
 
@@ -122,7 +122,7 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
         seconds: "{{ health_time }}"  
 ```
 
-# Variables
+# Variables Used
 
 - key.vars
 
@@ -159,7 +159,7 @@ systemctl enable jenkins
 sudo systemctl start jenkins
 ```
 
-# Inital Setup
+# Configuring Jenkins
 
 http://< serverIP >:8080
 
