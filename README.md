@@ -40,7 +40,7 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
           instance-state-name: [ "running"]
       register: ec2
 
-    - name: "Print instance details"
+    - name: "Printing instance details"
       debug:
         var: ec2
 
@@ -56,7 +56,7 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
       with_items:
         - "{{ ec2.instances }}" 
   
-    - name: "Print ec2 IP's"
+    - name: "Printing EC2 IPs"
       debug:
         msg: "public ip's -> {{ item.public_ip_address }}"
       with_items:
@@ -102,7 +102,7 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
         dest: /var/www/html/
         remote_src: true
 
-    - name: "ReStarting/enabling Application"
+    - name: "Restarting/enabling Application"
       when: git_repo_status.changed == true
       service:
         name: httpd
