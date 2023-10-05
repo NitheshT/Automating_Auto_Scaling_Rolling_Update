@@ -1,4 +1,4 @@
-![image](https://github.com/NitheshT/Automating_Auto_Scaling_Rolling_Update/assets/122042254/03f8090b-0a42-479e-826b-b21370759d72)# Description
+# Description
 
 I've created an Ansible playbook for ASG with dynamic inventory to update Git on active instances. Use it manually or via Jenkins, no extra instances will be created.
 
