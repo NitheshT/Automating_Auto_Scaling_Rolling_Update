@@ -62,8 +62,8 @@ I've created an Ansible playbook for ASG with dynamic inventory to update Git on
       with_items:
         - "{{ ec2.instances }}"
 
-- name: "Deloying website from Github accoung"
-  hosts: instances                       #Dynmic_Inventory
+- name: "Deploymnet of the website from Github account"
+  hosts: instances                       #Dynamic_Inventory
   become: true
   serial: 1       
   vars_files:
